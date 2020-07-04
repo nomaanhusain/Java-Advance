@@ -1,3 +1,6 @@
+//Maxminum Value, Minimum Weight, Holding capacity of knapsack is W
+//This is a top down DP method to solve this, a recursive solution is also possible
+
 public class TopDownKnapSack {
     public static void main(String[] args) {
         int []val=new int[]{2,7,5,8};
