@@ -68,6 +68,6 @@ public class MinimumSubsetSum {
             min=sum-2*i;
         }
     }
-    System.out.println(min);
+    System.out.println("Minimum Subset Difference is ="+min);
  }   
 }
