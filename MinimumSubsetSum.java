@@ -14,10 +14,10 @@ import java.util.ArrayList;
 
     now if we know s1, s2= 10-s1 (as sum of array is 10)
     (s2-s1=min)
-    10-s1-s1=(minimum value) ie. 10-2s1=(minimum value)
+    10-s1-s1=(minimum value) ie. 10-2*s1=(minimum value)
 
     now lets say s1 will exist from index 0 to arposobolity/2
-    put all values of s1 in 10-2s1, the minimum value is the answer
+    put all possible values of s1 in 10-2*s1, the minimum value is the answer
 
     s1=0,1,2,3
     val-->
@@ -62,7 +62,8 @@ public class MinimumSubsetSum {
         }
     }
     int min=Integer.MAX_VALUE;
-    for(int i:arposibility){
+    for(int i:arposibility){ //different from the description here i used all values of arposibility
+                             //as s1, calculated sum-2*s1, and found the min.
         if(Math.abs(sum-2*i)<min){
             min=sum-2*i;
         }
