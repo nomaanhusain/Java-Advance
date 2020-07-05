@@ -51,7 +51,7 @@ public class UnboundKnapsack {
         }
 
           //Printing
-System.out.println();
+System.out.println("DP Array --> ");
         for(int i=0;i<=val.length;i++){
             for(int j=0;j<=W;j++){
                 System.out.print(t[i][j]+" ");
