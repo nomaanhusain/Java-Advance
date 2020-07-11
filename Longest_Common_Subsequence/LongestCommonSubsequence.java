@@ -1,6 +1,6 @@
 package Longest_Common_Subsequence;
 
-public class Lcs {
+public class LongestCommonSubsequence {
     public static void main(String[] args) {
         char x[]=new char[]{'a','c','d','h','e'};
         char y[]=new char[]{'a','c','u','h','e','l'};
